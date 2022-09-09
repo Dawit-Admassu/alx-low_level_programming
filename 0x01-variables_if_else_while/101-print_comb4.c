@@ -16,7 +16,7 @@ int main(void)
 	while (e < 58)
 	{
 		i = 48;
-   		while (i < 58)
+		while (i < 58)
 		{
 			g = 48;
 			while (g < 58)
@@ -28,8 +28,8 @@ int main(void)
 					putchar(g);
 					if (i == 56 && e == 55 && g == 57)
 					{
-						break;	
-					}	
+						break;
+					}
 					putchar(',');
 					putchar(' ');
 				}
