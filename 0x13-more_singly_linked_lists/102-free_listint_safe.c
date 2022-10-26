@@ -48,7 +48,8 @@ size_t free_listint_safe(listint_t **h)
 		hptr = new;
 
 		add = hptr;
-																	while (add->next != NULL)
+		
+		while (add->next != NULL)
 		{
 			add = add->next;
 			if (*h == add->p)
