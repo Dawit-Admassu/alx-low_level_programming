@@ -30,7 +30,7 @@ listint_t *find_listint_loop(listint_t *head)
 					p2 = p2->next;
 				}
 				if (p2->next == head)
-					break
+					break;
 																			head = head->next;
 																		}
 			return (p2->next);
